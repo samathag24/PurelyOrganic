@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmFresh</title>
+    <link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+</head>
+<body>
+    <header>
+        <div class="contact-info">
+            <span>+012 345 6789</span>
+        </div>
+        <div class="logo">
+            <h1>FarmFresh</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">{% url 'product_list' %}</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="social-icons">
+            <a href="#"><img src= {% static 'myapp/images/twitter-icon.png' %}alt="Twitter"></a>
+            <a href="#"><img src={% static 'myapp/images/facebook-icon.png' %}alt="Facebook"></a>
+            <a href="#"><img src={% static 'myapp/images/linkedin-icon.png' %}alt="LinkedIn"></a>
+            <a href="#"><img src= {% static 'myapp/images/instagram-icon.png' %}alt="Instagram"></a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Our Products</h2>
+            <div class="buttons">
+                <button>Home</button>
+                <button>Products</button>
+            </div>
+        </section>
+        <section class="products">
+            <h3>Our Fresh & Organic Products</h3>
+            <img src="vegetables.png" alt="Fresh Vegetables">
+        </section>
+    </main>
+</body>
+</html>

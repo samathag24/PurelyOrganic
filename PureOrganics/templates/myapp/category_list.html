@@ -1,0 +1,20 @@
+<!-- your_app/templates/category_list.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category List</title>
+</head>
+<body>
+    <h1>Categories</h1>
+    <ul>
+        {% for category in categories %}
+            <li><a href="{% url 'category_detail' category.pk %}">{{ category.name }}</a></li>
+        {% empty %}
+            <li>No categories found.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
