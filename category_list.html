@@ -1,0 +1,25 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+    <div class="product-list">
+        <h1 class="products-heading">Categories</h1>
+        <div class="product-list">
+            {% if categories %}
+                {% for category in categories %}
+                    <div class="product">
+                        <a href="{% url 'category_detail' category.pk %}">
+                            <img src="{{ category.image.url }}" alt="{{ category.name }}">
+                        </a>
+                        <div class="details">
+                            <h2>{{ category.name }}</h2>
+                        </div>
+                    </div>
+                {% empty %}
+                    <p>No categories found.</p>
+                {% endfor %}
+            {% else %}
+                <p>No categories found.</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

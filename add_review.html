@@ -1,0 +1,20 @@
+{% extends 'myapp/base.html' %}
+{% block content %}
+<div class="product-detail">
+        <div class="product-info">
+            <h1 class="mb-4">Review {{ product.name }}</h1>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Submit Review</button>
+            </form>
+        </div>
+        <div class="product-image">
+            {% if product.image %}
+                <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-fluid rounded">
+            {% else %}
+                <p>No image available.</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

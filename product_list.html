@@ -1,0 +1,33 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+<h1>Products</h1>
+<div class="product-list">
+    {% if products %}
+        {% for product in products %}
+            <div class="product">
+                <a href="{% url 'product_detail' product.pk %}">
+                    <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                </a>
+              <div class="action-buttons">
+    <form action="{% url 'add_to_cart' product.id %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+    </form>
+    <form action="{% url 'buy_now' product.id %}" method="post" style="display:inline;">
+        {% csrf_token %}
+        <button type="submit" class="buy-now-btn">Buy Now</button>
+    </form>
+</div>
+
+                               <p>Reviews: {{ product.reviews.count }}</p>
+
+            </div>
+        {% empty %}
+            <p>No products found.</p>
+        {% endfor %}
+    {% else %}
+        <p>No products found.</p>
+    {% endif %}
+</div>
+{% endblock %}

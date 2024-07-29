@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - PureOrganics</title>
+    <link rel="stylesheet" href="{% static 'myapp/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="{% url 'home' %}">
+                <img src="{% static 'myapp/images/pureorganicslogo.png' %}" alt="Company Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                 <li><a href="{% url 'home' %}">Home</a></li>
+                <li><a href="{% url 'about' %}">About</a></li> <!-- Replace with actual link -->
+                <li><a href="{% url 'contact' %}">Contact</a></li> <!-- Replace with actual link -->
+                <li><a href="{% url 'faq' %}">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about-section">
+            <div class="container">
+                <h1>About PureOrganics</h1>
+                <p>At PureOrganics, we are committed to promoting sustainable living and fostering a healthier planet. Our platform offers a wide range of organic and eco-friendly products, from fresh produce to sustainable household essentials and natural beauty products.</p>
+                <h2>Our Founders</h2>
+                <div class="founders">
+                    <div class="founder">
+                        <img src="{% static 'myapp/images/founder1.jpg' %}" alt="Founder 1">
+                        <h3>Divyateja Kandlagunta</h3>
+                        <p>Divyateja Kandlagunta is a co-founder of PureOrganics. With a background in environmental science and a passion for sustainability, Jane has dedicated her career to creating eco-friendly solutions that make a difference.</p>
+                    </div>
+                    <div class="founder">
+                        <img src="{% static 'myapp/images/founder2.jpeg' %}" alt="Founder 2">
+                        <h3>NimishaChowdary Cherukuri</h3>
+                        <p>NimishaChowdary Cherukuri , co-founder of PureOrganics, has extensive experience in the organic food industry. Her vision is to make organic products accessible to everyone, promoting a healthier lifestyle for all.</p>
+                    </div>
+                    <div class="founder">
+                        <img src="{% static 'myapp/images/founder3.jpeg' %}" alt="Founder 3">
+                        <h3>Samatha Guddepogu</h3>
+                         <p>Samatha Guddepogu, co-founder of PureOrganics, brings a wealth of knowledge in sustainable agriculture. Her innovative approach has helped PureOrganics grow into a trusted source for eco-friendly products.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section highlight">
+                <img src="{% static 'myapp/images/pureorganicslogo.png' %}" alt="PureOrganics Logo">
+                <div>
+                    <h3>PureOrganics</h3>
+                    <p>Your Path to Natural Wellness.</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">Environment</a></li>
+                    <li><a href="#">Business & Policy</a></li>
+                    <li><a href="#">Home & Garden</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://twitter.com" class="social-icon"><img src="{% static 'myapp/images/twitter-icon.png' %}" alt="Twitter"></a>
+                    <a href="https://facebook.com" class="social-icon"><img src="{% static 'myapp/images/facebook-icon.png' %}" alt="Facebook"></a>
+                    <a href="https://instagram.com" class="social-icon"><img src="{% static 'myapp/images/instagram-icon.png' %}" alt="Instagram"></a>
+                    <a href="https://linkedin.com" class="social-icon"><img src="{% static 'myapp/images/linkedin-icon.png' %}" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 PureOrganics. All rights reserved.</p>
+            <p>PureOrganics is part of the [Parent Company] publishing family.</p>
+            <p>Please review our updated <a href="https://example.com/terms" class="terms-link">Terms of Service</a>.</p>
+        </div>
+    </footer>
+</body>
+</html>
+

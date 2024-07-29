@@ -1,0 +1,53 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+<main class="product-detail">
+    <div class="product-info">
+        <div class="action-buttons">
+            <a href="{% url 'category_list' %}" class="button back-link">Back to Products</a>
+        </div>
+        <h1>{{ product.name }}</h1>
+        <p>Category: {{ product.category.name }}</p>
+        <p>Description: {{ product.description }}</p>
+        <p>Price: ${{ product.price }}</p>
+        <p>Stock: {{ product.stock }}</p>
+
+        <div class="action-buttons">
+            <form action="{% url 'add_to_cart' product.id %}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+            </form>
+            <form action="{% url 'checkout'%}" method="post" style="display:inline;">
+                {% csrf_token %}
+                <button type="submit" class="buy-now-btn">Buy Now</button>
+            </form>
+        </div>
+    <h2>Reviews ({{ review_count }})</h2>
+        <div class="reviews">
+            {% for review in reviews %}
+                <div class="review">
+                    <strong>{{ review.user.username }}</strong> rated it {{ review.rating }} stars
+                    <p>{{ review.comment }}</p>
+                    <small>Reviewed on {{ review.created_at }}</small>
+                </div>
+            {% empty %}
+                <p>No reviews yet.</p>
+            {% endfor %}
+
+        <div class="action-buttons">
+
+               <a href="{% url 'add_review' product.id %}" class="button back-link">Add Your Review</a>
+        </div>
+
+ </div>
+        </div>
+
+    <div class="product-image">
+        {% if product.image %}
+            <img src="{{ product.image.url }}" alt="{{ product.name }}">
+        {% endif %}
+    </div>
+
+
+</main>
+{% endblock %}
