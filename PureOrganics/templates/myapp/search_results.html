@@ -1,0 +1,85 @@
+<!-- myapp/templates/myapp/search_results.html -->
+
+{% extends 'myapp/base.html' %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+    <h1 class="products-heading">Search Results for "{{ query }}"</h1>
+
+    {% if categories %}
+        <div class="category-list">
+            {% for category in categories %}
+                <div class="category">
+                    <!-- Display products related to this category -->
+                    {% with category_products|slice:":100" as cat_products %}
+                        {% if cat_products %}
+                            <div class="product-list">
+                                {% for product in cat_products %}
+                                    {% if product.category == category %}
+                                        <div class="product">
+                                            <a href="{% url 'product_detail' product.pk %}">
+                                                <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                                            </a>
+                                            <div class="details">
+                                                <h2>{{ product.name }}</h2>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                        {% endif %}
+                    {% endwith %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if brands %}
+        <div class="brand-list">
+            {% for brand in brands %}
+                <div class="brand">
+                    <!-- Display products related to this brand -->
+                    {% with brand_products|slice:":100" as br_products %}
+                        {% if br_products %}
+                            <div class="product-list">
+                                {% for product in br_products %}
+                                    {% if product.brand == brand %}
+                                        <div class="product">
+                                            <a href="{% url 'product_detail' product.pk %}">
+                                                <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                                            </a>
+                                            <div class="details">
+                                                <h2>{{ product.name }}</h2>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        {% else %}
+                        {% endif %}
+                    {% endwith %}
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if products %}
+        <div class="product-list">
+            {% for product in products %}
+                <div class="product">
+                    <a href="{% url 'product_detail' product.pk %}">
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                    </a>
+                    <div class="details">
+                        <h3>{{ product.name }}</h3>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    {% if not categories and not brands and not products %}
+        <p>No results found.</p>
+    {% endif %}
+{% endblock %}

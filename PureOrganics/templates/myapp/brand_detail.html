@@ -1,0 +1,15 @@
+<!-- your_app/templates/brand_detail.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ brand.name }}</title>
+</head>
+<body>
+    <h1>{{ brand.name }}</h1>
+    <p>{{ brand.description }}</p>
+    <a href="{% url 'brand_list' %}">Back to brands</a>
+</body>
+</html>

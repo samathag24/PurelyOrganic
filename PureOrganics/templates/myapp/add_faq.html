@@ -1,0 +1,17 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+
+{% block title %}Add FAQ{% endblock %}
+
+{% block content %}
+<main>
+    <section class="form-section">
+        <h1>Add a New FAQ</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="submit-button">Add FAQ</button>
+        </form>
+    </section>
+</main>
+{% endblock %}

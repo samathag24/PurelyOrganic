@@ -1,0 +1,39 @@
+{% extends 'myapp/base.html' %}
+{% load static %}
+
+{% block title %}FAQ{% endblock %}
+
+{% block content %}
+<main>
+    <section class="faq-section">
+        <h1>Frequently Asked Questions</h1>
+        <div class="faq-list">
+            {% for faq in faqs %}
+                <div class="faq-item">
+                    <h2 class="faq-question">{{ faq.question }}</h2>
+                    <div class="faq-answer">{{ faq.answer|linebreaks }}</div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</main>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const questions = document.querySelectorAll('.faq-question');
+        questions.forEach(question => {
+            question.addEventListener('click', function() {
+                const answer = this.nextElementSibling;
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                } else {
+                    answer.style.display = 'block';
+                }
+            });
+        });
+    });
+</script>
+{% endblock %}
+ 

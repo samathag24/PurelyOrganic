@@ -1,0 +1,20 @@
+<!-- your_app/templates/brand_list.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand List</title>
+</head>
+<body>
+    <h1>Brands</h1>
+    <ul>
+        {% for brand in brands %}
+            <li><a href="{% url 'brand_detail' brand.pk %}">{{ brand.name }}</a></li>
+        {% empty %}
+            <li>No brands found.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

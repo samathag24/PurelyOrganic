@@ -1,0 +1,178 @@
+[
+{
+    "model": "PureOrganics.product",
+    "pk": 1,
+    "fields": {
+        "name": "Maple Syrup",
+        "category": 1,
+        "brand": 1,
+        "description": "Pure organic Canadian maple syrup",
+        "price": "12.99",
+        "stock": 63,
+        "image": "products/maplesyrup.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:30:48.205Z",
+        "updated_at": "2024-07-23T15:05:59.056Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 2,
+    "fields": {
+        "name": "Wild Blueberries",
+        "category": 1,
+        "brand": null,
+        "description": "Wild organic Canadian blueberries",
+        "price": "8.99",
+        "stock": 44,
+        "image": "products/blueberries.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:31:31.159Z",
+        "updated_at": "2024-07-23T06:50:19.710Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 3,
+    "fields": {
+        "name": "Organic Kale",
+        "category": 2,
+        "brand": 2,
+        "description": "Fresh organic Canadian kale",
+        "price": "3.49",
+        "stock": 73,
+        "image": "products/kale.png",
+        "available": true,
+        "created_at": "2024-07-18T23:32:06.835Z",
+        "updated_at": "2024-07-27T02:34:27.199Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 4,
+    "fields": {
+        "name": "Canadian Cheddar",
+        "category": 3,
+        "brand": null,
+        "description": "Aged organic Canadian cheddar cheese",
+        "price": "5.99",
+        "stock": 29,
+        "image": "products/organic-cheddar.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:32:38.407Z",
+        "updated_at": "2024-07-29T01:15:12.720Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 5,
+    "fields": {
+        "name": "Ontario Apples",
+        "category": 1,
+        "brand": null,
+        "description": "Crisp organic Ontario apples",
+        "price": "1.99",
+        "stock": 149,
+        "image": "products/apples.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:33:12.312Z",
+        "updated_at": "2024-07-23T06:54:56.404Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 6,
+    "fields": {
+        "name": "Quebec Cheese Curds",
+        "category": 3,
+        "brand": null,
+        "description": "Fresh organic Quebec cheese curds",
+        "price": "4.99",
+        "stock": 36,
+        "image": "products/Cheese.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:33:38.130Z",
+        "updated_at": "2024-07-23T15:07:05.887Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 7,
+    "fields": {
+        "name": "BC Blueberries",
+        "category": 1,
+        "brand": null,
+        "description": "Juicy organic blueberries from British Columbia",
+        "price": "6.99",
+        "stock": 69,
+        "image": "products/bc_blueberry.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:34:11.675Z",
+        "updated_at": "2024-07-23T07:22:17.251Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 8,
+    "fields": {
+        "name": "Organic Spinach",
+        "category": 2,
+        "brand": 2,
+        "description": "Nutrient-rich organic Canadian spinach",
+        "price": "4.29",
+        "stock": 59,
+        "image": "products/spinach.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:34:44.743Z",
+        "updated_at": "2024-07-23T13:05:19.147Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 9,
+    "fields": {
+        "name": "Nova Scotia Strawberries",
+        "category": 1,
+        "brand": 1,
+        "description": "Sweet organic strawberries from Nova Scotia",
+        "price": "7.49",
+        "stock": 40,
+        "image": "products/strawberry.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:35:20.408Z",
+        "updated_at": "2024-07-23T13:05:12.857Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 10,
+    "fields": {
+        "name": "Free-range Eggs",
+        "category": 3,
+        "brand": 3,
+        "description": "Fresh organic free-range eggs from local farms",
+        "price": "3.99",
+        "stock": 95,
+        "image": "products/egg.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:35:48.306Z",
+        "updated_at": "2024-07-26T17:42:45.971Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 11,
+    "fields": {
+        "name": "apple",
+        "category": 1,
+        "brand": 1,
+        "description": "",
+        "price": "3.29",
+        "stock": 100,
+        "image": "products/apples-Ontario-fruits.jpg",
+        "available": true,
+        "created_at": "2024-07-27T01:23:41.857Z",
+        "updated_at": "2024-07-27T02:11:25.998Z"
+    }
+}
+]

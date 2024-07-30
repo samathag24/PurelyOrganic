@@ -1,0 +1,23 @@
+[
+{
+    "model": "PureOrganics.cart",
+    "pk": 2,
+    "fields": {
+        "user": 1
+    }
+},
+{
+    "model": "PureOrganics.cart",
+    "pk": 7,
+    "fields": {
+        "user": 19
+    }
+},
+{
+    "model": "PureOrganics.cart",
+    "pk": 12,
+    "fields": {
+        "user": 28
+    }
+}
+]

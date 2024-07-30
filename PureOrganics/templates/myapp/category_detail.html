@@ -1,0 +1,73 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+<div class="category-detail">
+    <div class="action-buttons">
+        <a href="{% url 'category_list' %}" class="button back-link">Back to Products</a>
+    </div>
+    <h1>{{ category.name }}</h1>
+    <div class="product-list">
+        {% if products %}
+            {% for product in products %}
+                <div class="product">
+                    <a href="{% url 'product_detail' product.pk %}">
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                    </a>
+                    <div class="details">
+                        <h2>{{ product.name }}</h2>
+                        <p>Price: ${{ product.price }}</p>
+                        <div class="action-buttons">
+                            <form class="add-to-cart-form" data-product-id="{{ product.id }}" style="display:inline;">
+                                {% csrf_token %}
+                                <button type="submit" class="add-to-cart-btn">Add to Cart</button>
+                            </form>
+                            <form action="{% url 'buy_now' product.id %}" method="post" style="display:inline;">
+                                {% csrf_token %}
+                                <button type="submit" class="buy-now-btn">Buy Now</button>
+                            </form>
+                        </div>
+                        <p class="details">Reviews: {{ product.reviews.count }}</p>
+                    </div>
+                </div>
+            {% empty %}
+                <p>No products found for this category.</p>
+            {% endfor %}
+        {% else %}
+            <p>No products found for this category.</p>
+        {% endif %}
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('.add-to-cart-form').submit(function(event){
+        event.preventDefault();  // Prevent form from submitting normally
+        var form = $(this);
+        var productId = form.data('product-id');
+
+        $.ajax({
+            type: 'POST',
+            url: '{% if user.is_authenticated %}{% url "ajax_add_to_cart" %}{% else %}{% url "ajax_add_to_cart_unauthenticated" %}{% endif %}',
+            data: {
+                'csrfmiddlewaretoken': form.find('[name="csrfmiddlewaretoken"]').val(),
+                'product_id': productId,
+                'quantity': 1  // Ensure quantity is 1
+            },
+            success: function(response){
+                if (response.status === 'login_required') {
+                    window.location.href = '{% url "login" %}?next=' + window.location.pathname;
+                } else {
+                    alert(response.message);
+                    // Update cart count in your template
+                    $('.cart-count').text(response.cart_count);
+                }
+            },
+            error: function(response){
+                alert('An error occurred. Please try again.');
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

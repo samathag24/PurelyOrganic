@@ -1,0 +1,8 @@
+<!-- templates/emails/welcome_email.html -->
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+<p>Hi {{ user.username }},</p>
+<p>Thank you for signing up with PureOrganics. We hope you enjoy your experience.</p>
+<p>Best regards,<br>PureOrganics Team</p>
+{% endblock %}

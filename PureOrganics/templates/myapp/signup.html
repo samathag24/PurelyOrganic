@@ -1,0 +1,51 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+<main class="main-container">
+    <section class="form-section">
+        <h1>Sign Up</h1>
+        <div class="messages">
+            {% for message in messages %}
+                <div class="message{% if message.tags %} {{ message.tags }}{% endif %}">{{ message }}</div>
+            {% endfor %}
+        </div>
+        <form method="post" class="auth-form" action="{% url 'signup' %}">
+            {% csrf_token %}
+            <div class="form-group">
+                {{ form.username.label_tag }}
+                {{ form.username }}
+                {% for error in form.username.errors %}
+                    <p class="message">{{ error }}</p>
+                {% endfor %}
+            </div>
+            <div class="form-group">
+                {{ form.email.label_tag }}
+                {{ form.email }}
+                {% for error in form.email.errors %}
+                    <p class="message">{{ error }}</p>
+                {% endfor %}
+            </div>
+            <div class="form-group">
+                {{ form.password1.label_tag }}
+                {{ form.password1 }}
+                {% for error in form.password1.errors %}
+                    <p class="message">{{ error }}</p>
+                {% endfor %}
+            </div>
+            <div class="form-group">
+                {{ form.password2.label_tag }}
+                {{ form.password2 }}
+                {% for error in form.password2.errors %}
+                    <p class="message">{{ error }}</p>
+                {% endfor %}
+            </div>
+            <button type="submit" class="submit-button">Sign Up</button>
+        </form>
+        <div class="auth-links">
+            <a href="{% url 'login' %}" class="auth-link">Already have an account? Log in</a>
+            <br>
+            <a href="{% url 'password_reset' %}" class="auth-link">Forgot your password?</a>
+        </div>
+    </section>
+</main>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'myapp/base.html' %}
+
+{% block title %}Order History - PureOrganics{% endblock %}
+
+{% block content %}
+<section class="order-history-section">
+    <h1>Order History</h1>
+    {% if order_details %}
+        <ul class="order-list">
+            {% for order_detail in order_details %}
+                <li class="order-item">
+                    <h3>Order #{{ order_detail.order.id }}</h3>
+                    <p><strong>Created at:</strong> {{ order_detail.order.created_at }}</p>
+                    <p><strong>Total:</strong> ${{ order_detail.order.total }}</p>
+                    <h4>Items:</h4>
+                    <ul class="order-items">
+                        {% for item in order_detail.items %}
+                            <li>{{ item.product.name }} (x{{ item.quantity }})</li>
+                        {% endfor %}
+                    </ul>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No orders found.</p>
+    {% endif %}
+</section>
+{% endblock %}

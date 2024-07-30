@@ -1,0 +1,15 @@
+{% extends 'myapp/base.html' %}
+
+{% block content %}
+<div class="order-confirmation">
+    <h1>Order Confirmation</h1>
+    {% if order %}
+        <p>Thank you for your order, {{ order.user.username }}!</p>
+        <p>Your order number is {{ order.id }}.</p>
+        <p>Total amount: ${{ order.total }}</p>
+    {% else %}
+        <p>Order details not found.</p>
+    {% endif %}
+    <a href="{% url 'product_list' %}" class="button">Continue Shopping</a>
+</div>
+{% endblock %}

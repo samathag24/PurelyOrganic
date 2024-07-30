@@ -1,0 +1,2261 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-07-18T23:28:12.057Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Fruits",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-07-18T23:28:34.210Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Vegetables",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-07-18T23:29:00.191Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Dairy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-07-18T23:29:25.998Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Organic Harvest",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-07-18T23:29:41.146Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Green Valley Organics",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-07-18T23:29:56.764Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Happy Cows Dairy",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-07-18T23:30:48.206Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Maple Syrup",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-07-18T23:31:31.161Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Wild Blueberries",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-07-18T23:32:06.836Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Organic Kale",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-07-18T23:32:38.408Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "4",
+        "object_repr": "Canadian Cheddar",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-07-18T23:33:12.314Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "5",
+        "object_repr": "Ontario Apples",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-07-18T23:33:38.131Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "6",
+        "object_repr": "Quebec Cheese Curds",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-07-18T23:34:11.677Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "7",
+        "object_repr": "BC Blueberries",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-07-18T23:34:44.745Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Organic Spinach",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-07-18T23:35:20.409Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Nova Scotia Strawberries",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-07-18T23:35:48.307Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Free-range Eggs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-07-21T00:01:03.188Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "3",
+        "object_repr": "cherukurikarishma@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-07-21T00:06:03.558Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "4",
+        "object_repr": "Karishma",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-07-21T00:22:18.557Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "5",
+        "object_repr": "karishma",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-07-21T01:15:00.297Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "6",
+        "object_repr": "karishma",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-07-21T20:28:59.323Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "8",
+        "object_repr": "NI",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-07-21T20:29:05.557Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "7",
+        "object_repr": "Karishma",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-07-21T20:51:25.709Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "9",
+        "object_repr": "ni",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-07-21T21:21:32.589Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "12",
+        "object_repr": "AL",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-07-21T21:21:37.352Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "10",
+        "object_repr": "annewang",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-07-21T21:21:42.323Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "11",
+        "object_repr": "ni",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-07-21T21:44:51.663Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "13",
+        "object_repr": "chni",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-07-21T21:44:55.763Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "14",
+        "object_repr": "chn",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-07-21T22:05:09.193Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "15",
+        "object_repr": "ch",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-07-22T05:49:45.166Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "15",
+        "object_repr": "ch",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-07-22T05:49:51.711Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "16",
+        "object_repr": "n",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-07-22T05:51:40.847Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "2",
+        "object_repr": "nimisha",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-07-22T07:04:20.031Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "What is PurelyOrganic?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-07-22T07:04:44.089Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "2",
+        "object_repr": "How can I contact customer support?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-07-22T07:05:17.527Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "3",
+        "object_repr": "What payment methods do you accept?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-07-22T07:05:41.936Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "4",
+        "object_repr": "How do I track my order?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-07-22T07:06:01.760Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "5",
+        "object_repr": "What is your return policy?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-07-22T07:06:24.981Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "6",
+        "object_repr": "Are your products certified organic?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-07-22T07:06:50.400Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "7",
+        "object_repr": "Do you offer international shipping?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-07-22T07:07:12.767Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "8",
+        "object_repr": "How can I cancel my order?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-07-22T07:07:35.397Z",
+        "user": 19,
+        "content_type": 17,
+        "object_id": "9",
+        "object_repr": "Can I change my shipping address after placing an order?",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-07-23T13:05:06.621Z",
+        "user": 19,
+        "content_type": 9,
+        "object_id": "10",
+        "object_repr": "Free-range Eggs",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-07-23T13:05:12.859Z",
+        "user": 19,
+        "content_type": 9,
+        "object_id": "9",
+        "object_repr": "Nova Scotia Strawberries",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-07-23T13:05:19.149Z",
+        "user": 19,
+        "content_type": 9,
+        "object_id": "8",
+        "object_repr": "Organic Spinach",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-07-23T13:05:28.508Z",
+        "user": 19,
+        "content_type": 9,
+        "object_id": "3",
+        "object_repr": "Organic Kale",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-07-23T13:05:39.834Z",
+        "user": 19,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Maple Syrup",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Brand\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-07-23T13:06:26.164Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "20",
+        "object_repr": "pureorganics",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-07-23T13:06:34.257Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "21",
+        "object_repr": "samatha",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-07-23T13:06:38.998Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "17",
+        "object_repr": "Samatha",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-07-23T13:06:43.481Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "18",
+        "object_repr": "kdivya",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-07-23T14:53:47.032Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "22",
+        "object_repr": "samatha",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-07-23T14:57:02.129Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "23",
+        "object_repr": "samatha",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-07-23T15:28:55.963Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "24",
+        "object_repr": "s",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-07-26T14:41:50.006Z",
+        "user": 19,
+        "content_type": 4,
+        "object_id": "25",
+        "object_repr": "pureorganics",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-07-27T01:23:41.865Z",
+        "user": 19,
+        "content_type": 9,
+        "object_id": "11",
+        "object_repr": "apple",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add brand",
+        "content_type": 7,
+        "codename": "add_brand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change brand",
+        "content_type": 7,
+        "codename": "change_brand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete brand",
+        "content_type": 7,
+        "codename": "delete_brand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view brand",
+        "content_type": 7,
+        "codename": "view_brand"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add category",
+        "content_type": 8,
+        "codename": "add_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change category",
+        "content_type": 8,
+        "codename": "change_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete category",
+        "content_type": 8,
+        "codename": "delete_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view category",
+        "content_type": 8,
+        "codename": "view_category"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add product",
+        "content_type": 9,
+        "codename": "add_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change product",
+        "content_type": 9,
+        "codename": "change_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete product",
+        "content_type": 9,
+        "codename": "delete_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view product",
+        "content_type": 9,
+        "codename": "view_product"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add cart item",
+        "content_type": 10,
+        "codename": "add_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change cart item",
+        "content_type": 10,
+        "codename": "change_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete cart item",
+        "content_type": 10,
+        "codename": "delete_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view cart item",
+        "content_type": 10,
+        "codename": "view_cartitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add cart",
+        "content_type": 11,
+        "codename": "add_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change cart",
+        "content_type": 11,
+        "codename": "change_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete cart",
+        "content_type": 11,
+        "codename": "delete_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view cart",
+        "content_type": 11,
+        "codename": "view_cart"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add order item",
+        "content_type": 12,
+        "codename": "add_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change order item",
+        "content_type": 12,
+        "codename": "change_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete order item",
+        "content_type": 12,
+        "codename": "delete_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view order item",
+        "content_type": 12,
+        "codename": "view_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add order",
+        "content_type": 13,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change order",
+        "content_type": 13,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete order",
+        "content_type": 13,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view order",
+        "content_type": 13,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add profile",
+        "content_type": 14,
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change profile",
+        "content_type": 14,
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": 14,
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view profile",
+        "content_type": 14,
+        "codename": "view_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add user visit",
+        "content_type": 15,
+        "codename": "add_uservisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change user visit",
+        "content_type": 15,
+        "codename": "change_uservisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete user visit",
+        "content_type": 15,
+        "codename": "delete_uservisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view user visit",
+        "content_type": 15,
+        "codename": "view_uservisit"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add contact",
+        "content_type": 16,
+        "codename": "add_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change contact",
+        "content_type": 16,
+        "codename": "change_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete contact",
+        "content_type": 16,
+        "codename": "delete_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view contact",
+        "content_type": 16,
+        "codename": "view_contact"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+        "name": "Can add faq",
+        "content_type": 17,
+        "codename": "add_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+        "name": "Can change faq",
+        "content_type": 17,
+        "codename": "change_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+        "name": "Can delete faq",
+        "content_type": 17,
+        "codename": "delete_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+        "name": "Can view faq",
+        "content_type": 17,
+        "codename": "view_faq"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+        "name": "Can add review",
+        "content_type": 18,
+        "codename": "add_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+        "name": "Can change review",
+        "content_type": 18,
+        "codename": "change_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+        "name": "Can delete review",
+        "content_type": 18,
+        "codename": "delete_review"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+        "name": "Can view review",
+        "content_type": 18,
+        "codename": "view_review"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$h9jLmBb1UGASbmkqy2IoZs$sv/mPTRUCG6LbnkO67kF/B2V2OqXFPoGQmqAa43G++I=",
+        "last_login": "2024-07-26T14:40:26.385Z",
+        "is_superuser": true,
+        "username": "nimishachowdarycherukuri",
+        "first_name": "",
+        "last_name": "",
+        "email": "cheruku4@uwindsor.ca",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-07-18T23:23:34.113Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 19,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$xZFKfIQJPEH9uGr2WgG9Ni$q48RJq2dURQVO2b0GTkMbJ5pmLTjIiLX24yYPQDZA9o=",
+        "last_login": "2024-07-27T01:22:23.206Z",
+        "is_superuser": true,
+        "username": "nimishac",
+        "first_name": "",
+        "last_name": "",
+        "email": "cheruku4@uwindsor.ca",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-07-22T05:48:56.337Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 26,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$Oj2wr16UQywYBlS4saK7tV$xcCccLK4PK8jimzIBPizxaZfs+KKAx4R+h/IX5Yrx7o=",
+        "last_login": "2024-07-26T15:53:35.777Z",
+        "is_superuser": false,
+        "username": "pureorganics",
+        "first_name": "",
+        "last_name": "",
+        "email": "cherukurinimisha@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-07-26T14:47:08.458Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "brand"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "category"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "product"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "cartitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "cart"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "orderitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "uservisit"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "contact"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 17,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "faq"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 18,
+    "fields": {
+        "app_label": "PureOrganics",
+        "model": "review"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "0z4xr8ab1ufc4vx9xd55edr7cpotuhyw",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSEtUB4u3fsN5HK5WNRAUqgb47_bJl3oapKZM-fNPKx99mujxefIzkwM7PRbBsAHlX2Jdyi3yrGWvuTAd4Qfa-PXGul5Odg_wQxt3t6IdnTgwAyY1KRQWymSIpBGGwrJEozaCunUsEUgRSqi0xJRUJJmEpv0lVvuHutaOjuLzxe8ET2r:1sVme5:qhzIVGAEzRdAq_XtCTOFa0P2TLJQyG73jNRpbe0n_L8",
+        "expire_date": "2024-08-05T06:35:41.963Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "3aup2ac3motemuz78xrqjstbqbo06379",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSEtUB4u3fsN5HK5WNRAUqgb47_bJl3oapKZM-fNPKx99mujxefIzkwM7PRbBsAHlX2Jdyi3yrGWvuTAd4Qfa-PXGul5Odg_wQxt3t6IdnTgwAyY1KRQWymSIpBGGwrJEozaCunUsEUgRSqi0xJRUJJmEpv0lVvuHutaOjuP7vMF-a494w:1sVwj0:P4EKrxoddAk0rKprod6UU_HUhNy1hAcfmfKxnh0mIro",
+        "expire_date": "2024-08-05T17:21:26.662Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "6bzq2ip8pctbsx547ouieec6jhyrrm5c",
+    "fields": {
+        "session_data": ".eJxdj8sKwjAQRX9FsrYlTWKSZuneLxAp08nURqWBJhWk-O_Wx0JdDdx77oGZWQNT7psp0dgEzxwTnK2_wxbwTMOz8ScYjrHEOOQxtOUTKT9tKnfR02X7YX8EPaR-WSPaqoYaDMdObRRqK0WnCKTRhtrOElTaClkrvpyWFCmPtZaIgjppNmKRXkMKucE4DZk5pdfs7Q8px_HG3H5mHjK9fhCq4KYQcsWlq_QC_8-FvR_uDzPeUU4:1sW6Hl:NAPDDSNgQ32sJGqZQWMHlzRH-h7cyzix-EuEBPELa7Q",
+        "expire_date": "2024-08-06T03:33:57.623Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "8xkjoe2e1a1l91v5rnxs4ypwf80u1i20",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSEtUB4u3fsN5HK5WNRAUqgb47_bJl3oapKZM-fNPKx99mujxefIzkwM7PRbBsAHlX2Jdyi3yrGWvuTAd4Qfa-PXGul5Odg_wQxt3t6IdnTgwAyY1KRQWymSIpBGGwrJEozaCunUsEUgRSqi0xJRUJJmEpv0lVvuHutaOjurzxe8FT2t:1sW7gj:SkWeWhtU9iQmYmiU6a_6huVwKnm7_y92R5ZBbddLG7k",
+        "expire_date": "2024-08-06T05:03:49.596Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "abt7g1ykipke3zpb400i9vnhvb61pf9a",
+    "fields": {
+        "session_data": ".eJx9lctOwzAQRX8FZd1W9vjtJXu-AKEqcVIaQI3UpEio6r_jCBbQsa-UVXyPM8czSa7Nvr0sx_1lHs77sW9iQ83m772uTe_DaV3o39rT67RL02k5j91ujex-V-fd09QPH4-_2X8bHNv5mGnT-UOgQycSGeVC5-0hJBKd7fvU2dZ3Tg_ioJJMIjgbbBh0r2wSSQbSya5VfY7zuOzTdDktTZTObpqfB4zzMp2_mvh8bfp2GVYHQXor3JboQVAULspwz-vbphYPUVr2OIPyZHh5MM_3Dyhv1H1eKZhn-6t6_VJHzfP1-qWJxNphRD3vonb3eU8obzTLg_pznp2_B_X7KNj-AdTvo_EsD-oJuQUsD-op5uvzIIvzKcCBloH6G0Cm0DEpLQSYgpQeAUYwgOpNIFd6yagunQHeNUlA2udlDgBpny8OAOkM8FNSQNpHxSZVKiCdAX5KCkqXAChdAqB0AdBQWvM-aCCdx5t9H6UG0mUASIfSeGsgHUrjDb6RFQBKl4C6tBKRJAfqDivAT8nWHSpA3WEF-Hhb7FAA6o2rAFiaAw5LF37-WLoAYOkCYG8vt289fa1W:1sVioj:8og0qSW9Dqf2sOCwfB98kzF-NB_QCqA13YbFubuBYVQ",
+        "expire_date": "2024-08-05T02:30:25.563Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "atr0cex8vc5vmnc31zco621iirqgh80t",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGln-fyjpOYO16zU4gGwpTirE3UmkFFCNNO_NvFmCdalpHWVOE7Ezk-z02yHkZ2k7oAe0e-e5t2WekO8KP-jg107ldTncv4MKo25rjCYLINTWkXeeyNkCGGBLqbXQGqRSBqMr2ZgARt1QkKPg0WoRDbDPF-rXN8M:1sUaTg:hcC6y8ZN1gd_O0YpYoE6ej9CFvxnn_iX8BTVpAmc4uA",
+        "expire_date": "2024-08-01T23:24:00.974Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "e0m7jsqy6bt6dnspzcfjj5rawrnu0d16",
+    "fields": {
+        "session_data": ".eJx1j8tqwzAQRX-laO0YayRLspbZ9wtKMePRuFYTLLDkQgn-9zqPRUvoauDecw_MRfS4lqlfMy99DMILaET1OxyQTjxfm_CJ80eqKc1liUN9RepHm-vXFPh8fLB_BBPmaV8TOdlhh7ahUbeajFMwakZljeVhdIzSOFCdbvYzsGYdqDOKCHhUtoVd-hVzLD2ldS7Cg6rE3R9zScu38G8XEbDw7QfQh8YeAF6k9WD881y2W_UPr52X7ol32_v2A4ulXlM:1sW7Lh:J-4g9ruyMYcTPEb6Z-aTp68Ih0k5KZObFpy2FMmzo7U",
+        "expire_date": "2024-08-06T04:42:05.527Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "emfsw0vvzfb9fdddu4o2vdlj24b60c9s",
+    "fields": {
+        "session_data": ".eJyVz8FqwzAMBuBXGT6nQZEdO_Zx9z3BKMGWncXriCF2BqPk3dvQHraFDnbV_0noP7PeLmXslxzmPnpmGLLq-8xZOoVpC_y7nd5STWkqc3T1Rup7muuX5MPH893-ODDaPF63W9cNGgcHhC1X2nVy0ITgpPfkpO2cEgEGTg2BVlJLHYTnkoAajYLk9tVnzLH0lJapMMNFxW73Yy5p_mLm9cy8LWGrACgOoA6IT9AYro1Qv9fFWj3gLRjcccTHnhve7Hz7T9_96fWuPV-P6wViI4TT:1sViF9:k5TpNkV5Go4pIZuThhPFk1ymyfUSzBuB-BQub75nC7Y",
+        "expire_date": "2024-08-05T01:53:39.074Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fznkakjjgx4uzmdm5g5z5u0b938fw4tu",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSEtUB4u3fsN5HK5WNRAUqgb47_bJl3oapKZM-fNPKx99mujxefIzkwM7PRbBsAHlX2Jdyi3yrGWvuTAd4Qfa-PXGul5Odg_wQxt3t6IdnTgwAyY1KRQWymSIpBGGwrJEozaCunUsEUgRSqi0xJRUJJmEpv0lVvuHutaOjuP9vMF-aw94g:1sW5qi:-Qt7jVwkDFs4LvT7giZuE6gyFT3hmiKdt8z_sHdkDjc",
+        "expire_date": "2024-08-06T03:06:00.331Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "hbx295naqzf0bmgyirsdrsrscif6zfg7",
+    "fields": {
+        "session_data": "e30:1sVlta:5tUhhwrEADrCfbv05Rr2_vAs_acNVWJ1obm9LFsZj9Q",
+        "expire_date": "2024-08-05T05:47:38.055Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "heqtg00zviwig65f78dhucwyu2oflvve",
+    "fields": {
+        "session_data": ".eJxdj8FuwjAQRH-l8plEm7UdsI-99wsQitb2mrigWIodJIT49zZqDoXrzLwZzUMMtNRxWArPQwrCChS7_5ojf-FpNcI3Tefc-jzVObl2jbSbW9qvHPj6uWVfCkYq4y8tjUIVSTF3SGhiJ1kq490hejTkogbQvkevY2A2oIyhzkTFjvsAzq2lt1RSHXxepipsp_VO_A2kUvN8F_b4EIEqrx8AVQP7BvEDpFVg4fDOo3yenj-XFFIg:1sVkbH:nZTFaUGMPB_SNtlgQfUl7xOfToB69PB08qoizQIRk0o",
+        "expire_date": "2024-08-05T04:24:39.335Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "kldjo9k8btj8971sb1pr5z5m2av89wuc",
+    "fields": {
+        "session_data": "e30:1sXW5z:c4crFLRjkGKNgrGtJOYAr4U53_NfPDiaQZhcWBX5Imc",
+        "expire_date": "2024-08-10T01:19:39.430Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "l2lizmwoyhc1pqfhxyn8f4jdy6jz68qv",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBKoXG6dO8ZyMwwWNRAItSN8e7apAvd_vf-e6mAa1_C2uQRclSzsurwuxHyTcoG4hXLpWqupT8y6U3RO236XKPcT7v7F1iwLd_3CM66hE5ksGghDaOMDpiOiS0gJW-M58myT1EEjAPAAZITkikaoi36zC33wHUtXc3-_QGowj5a:1sVjnO:fEMF3bXrpYfESdVZqPHpoi3p9VSFvBQfV0cG-rTstIE",
+        "expire_date": "2024-08-05T03:33:06.893Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lobbo8irlths1y2v9kpvf2ihvk09pmch",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAURP-FtSEtUB4u3fsN5HK5WNRAUqgb47_bJl3oapKZM-fNPKx99mujxefIzkwM7PRbBsAHlX2Jdyi3yrGWvuTAd4Qfa-PXGul5Odg_wQxt3t6IdnTgwAyY1KRQWymSIpBGGwrJEozaCunUsEUgRSqi0xJRUJJmEpv0lVvuHutaOjtL-fkC-ag93w:1sVwa5:gpD0c6as0czqu8TMCq5ulPWRu5sdKgB5q0bdkiSG9Ag",
+        "expire_date": "2024-08-05T17:12:13.721Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "lujytuit6g2bwmpzmabnqdty352ie4wp",
+    "fields": {
+        "session_data": "e30:1sVl8u:AItWyVP7_L5smd1JOjx7IK9Yz3bV5YrVBh0_B4LIx1c",
+        "expire_date": "2024-08-05T04:59:24.102Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "oxf2ziigs4578qlsj188q7ydap52itmz",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQRO_iGln-fyjpOYO16zU4gGwpTirE3UmkFFCNNO_NvFmCdalpHWVOE7Ezk-z02yHkZ2k7oAe0e-e5t2WekO8KP-jg107ldTncv4MKo25rjCYLINTWkXeeyNkCGGBLqbXQGqRSBqMr2ZgARt1QkKPg0WoRDbDPF-rXN8M:1sVKKz:7zJgqTR_AX9yCjGbgRV59vMptlPh33jm3S9zBWMb7WY",
+        "expire_date": "2024-08-04T00:22:05.503Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rhlmnr9h5lxb9xcuklkcu6iad3politu",
+    "fields": {
+        "session_data": "e30:1sXM7O:MAx-pzn-YO-mtYuh4gBCNb_XaaNgvJMWQoO765Y4e80",
+        "expire_date": "2024-08-09T14:40:26.380Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rllirp52lvsgun1cexaifhnzxw0rsn0m",
+    "fields": {
+        "session_data": ".eJyVz01qwzAQBeCrFK0dI43-LC277wlKMdJIrt0UCyw5EILv3ppm0caNIdt53wxvLqR1c-nbOcepHQKxBEj1e-YdHuO4BuHDje-pxjSWafD1SuprmuuXFOLn89X-OdC73H9vS990BjpPESTXxjeqMwjUqxDQK9d4LSLtODKkRiujTBSBK6TIDAhUa6vTkIfSYprHQqxkFfm5P-SSpjOxrxcSXInrCxTEgeoDwBNllhkrm9t1sVR3OGjL-C3X97n5hzO66-XG812vNl4-6Pf7b715zANb3pYvJKyrng:1sVht4:iP5aEL1iV_Whb0VnH_RejZIiTWPAN78naDJR1BphEWA",
+        "expire_date": "2024-08-05T01:30:50.855Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rorh4zq4a5wkf63aro098yctxm69sdm9",
+    "fields": {
+        "session_data": ".eJxdT8kKwjAQ_RXJ2ZY2e3P07heIlOlkaqPSQJMKIv67dTmopwdv5d1YC3Me2jnR1AbPHOMVW3-THeCJxqfijzAeYolxzFPoyqel_Kip3EZP583H-1MwQBqWNKKtG2jAVNhLJVFbwXtJIIw21PWWoNaWi0ZWC3QkSXpstEDk1Auj-FJ6CSnkFuM8ZuZqpdbsPRBSjtOVud2Necj0OsFlUZmC81WtnZJOmf-81ff9_QF-21GK:1sVwVj:TL3eli5l-8CubsftnEd1u-40__5FAdO9qjUg23IOIQI",
+        "expire_date": "2024-08-05T17:07:43.074Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "sktu2y3ypnel426xveo4myf1b3tytdm3",
+    "fields": {
+        "session_data": ".eJx1j81qwzAQhF-l6OyY9erP0rH3PkEJRlrJtZpigSUXSvC7JyY5tGl7nflmmDmzwa11GtYSlyEFZhmy5rvmHZ3ivBvh3c1vuaU81yX5dkfau1valxzix_Od_VEwuTJd09L3o8HRA6Hk2vhejYYQvAqBvHK91yLCyKkjMFoZZaIIXBFQZ1CQ2ld9ppLqQHmdK7NcNezWn0rNyxezr2cWXI37BUBxAH1AfILOSml59xgXW_Mnjha4RXjE9f-4tKB-jcPtuF0AQt1qlw:1sViQH:-ENnlErBFyyBcDBxg_Bt3gX9Tvj4HrSfQ15DLJG-X1I",
+        "expire_date": "2024-08-05T02:05:09.867Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "tdzj0rlbnumnjepugr4zwx8yob6gsx9w",
+    "fields": {
+        "session_data": ".eJxdj8tqwzAQRX-laJ0YZfTWMvt-QSlmPBrXaoIFllwoIf9e57Fou7pwHwfuRfS4tqlfKy99TiIKkGL32xyQTjzfkvSJ80fpqMxtyUN3q3TPtHavJfH5-Oz-AUxYp21N5A8BAzpJozaarFcwakblrONh9IwH60EFLTcZWLNOFKwiAh6VM7BBv3LNraeyzk1E8Dvx4OfayvIt4ttFJGx8_wB6L90e4EXaqE004f_cXN-vP-P1USE:1sVmta:0GWTlTnWPJypAhWLXk8LorlTr9Vyjuo9UyBf3MSEQ5I",
+        "expire_date": "2024-08-05T06:51:42.547Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "uey7gjsh4ki3l79lw9e9htv4szb07p7t",
+    "fields": {
+        "session_data": ".eJx90c1OxCAUBeBXMaxnGrj8XGDp3icwpqHA2DqmTVpqYiZ9dxmdhQ7ShBV8HA5wIa1bU9-uS5zbIRBLmCSH35Od8-c4XlfCmxtfp8ZPY5qHrrmS5ra6NE9TiO-PN_snoHdLn3dT0N4zowN49IpFBOGCDyZ0RqN2IQjVeVRcGyrFCb07oQQNaJjUxkWWQz-GZUitn9YxEYv0QH7yhyVN8yexzxcSXIr5LKAgjhSPwB4AbB6S3m8HsR1qnlsGhZd7vswXu_mSF34nX-QrFF5XPVeWF_my3odrK7DwWPfG0uI75E6f7Ms-ZtfLe69o1cvcXxSeVTzP5f_LV3WPlqrC197n20PRB-n2sn0BaHH6KQ:1sVfeG:g4EvR_wFEsw2Dyx4SLtDfbZOi_ulzI3pCY6LOJCh6zY",
+        "expire_date": "2024-08-04T23:07:24.863Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "v82ilyauhtgmw9aicbq5nfjui4xw37nz",
+    "fields": {
+        "session_data": "e30:1sVl8Z:HHEc_MqeoCWiOUt8iaBGQvEbJU3nhi6c0v0Q-rlpsBk",
+        "expire_date": "2024-08-05T04:59:03.271Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wdgm3qlvevd1ykv1ljshg8t54o745k5v",
+    "fields": {
+        "session_data": "e30:1sVl9g:g299t9AvG8KkiRBaSLlw9hk5XNOttUZMGOFPnfLsylY",
+        "expire_date": "2024-08-05T05:00:12.083Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yc5fneb6tvbxzcoxk16j6gmptaus08h0",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSGAPEqX7vsNBGamFjWQFOrG-O_apAvd3nPuebEQt76ErdEaMrKRSc9Ov2OKcKeyE7zFcq0caulrTnxX-EEbnyrS43K4f4EltuX7VgL84JM03lpyCUGjB1JikETqjNGBFsLNg_FROVCzc9aQMBKV9ajtHn3mlnuAupXORqffH-sSPYw:1sVnHv:9e7rNepTU9qMhvvMRsO56wAgsXTXtv-MjHihHsXn3xA",
+        "expire_date": "2024-08-05T07:16:51.693Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "yrpz1k19e83nc7d0merww2x9cha1niy9",
+    "fields": {
+        "session_data": ".eJyV08tqhDAUBuBXGbJ2JPeYLLvvE5Qi5mK1UxS8FMrguzcys2jNBdzmfDn8OUnuoG7WpavX2U11b4ECGBR_13Rjbm7YC_azGT7G0ozDMvW63En5rM7l62jd18vT_mvQNXPndzNdtRK3GhrMiJC64q00GGpurdG8qbSgDrbEIAOl4JJLRy3hBhokMTV8T_Xdz_1Sm3EdFqAqUoBH_35exukHqLc7sM3i9iNATK9QXDG6YKIQVFQct5OtSHGkID1yGuP4Ar1FClVBd5nzLEhD0Ukfjf_w2FcDn8njPTt6hk_6zHxYZJxMJL2_LRbk5zDt90iBT-eP-3R-71HoM_mjPj3_3QfzEen3EPfp9-A94YFnJ33mvFQxGHzOzH15H_yXimzv2y-_9kdJ:1sVhdi:IRcYw8ir9I-ueJmgtIYeXM2G_2LhXQBhXuHjCd-__-8",
+        "expire_date": "2024-08-05T01:14:58.877Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zbh7ub311py8kmv7zs2hr46okr3f8039",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hBKaXW6dO8ZyMwwWNRAUqgb4921SRe6_e_991Ie1zb7tcriU1CTsurwuxHyXfIGwg3ztWguuS2J9KbonVZ9KUEe5939C8xY5--7B2ddRCfSWbQQu156B0ynyBaQ4mDMwKPlIQYRMA4AO4hOSMZgiLboM9XUPJc1NzUdzfsD5wU-jA:1sVkzV:Q8rLDLdrmzn1pWHzYETiKJvq7CdwHkQOW2Lj332AzVw",
+        "expire_date": "2024-08-05T04:49:41.541Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zixhds07emlgdbcgnpjmx8ftakrk23sc",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hDAAh2X7j0DgZmpRQ0khbox3l2bdKHb_95_LxHi2uewNl5CJnESGsThd0wR71w2QrdYrlViLX3JSW6K3GmTl0r8OO_uX2CObf6-jUIYIWkLzrFPhAMBslGjZjZHih4Hpfw0WojGo5m8d5aV1WQc0OC26DO33APWtXRx0vr9Aer6PYM:1sXWFM:CcYoHpfMmzUVAfGEC8rn70BkQ8ncbNWmEahMvdB_Llw",
+        "expire_date": "2024-08-10T01:29:20.744Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zrogvcmb233b6gv1ukf63n4xd5ynfp5k",
+    "fields": {
+        "session_data": "e30:1sXW6Y:IIOYangXX532eadZwrimJ3PDxKJ0BTEY6nzIIED2nus",
+        "expire_date": "2024-08-10T01:20:14.016Z"
+    }
+},
+{
+    "model": "PureOrganics.profile",
+    "pk": 5,
+    "fields": {
+        "user": 19,
+        "profile_image": ""
+    }
+},
+{
+    "model": "PureOrganics.profile",
+    "pk": 12,
+    "fields": {
+        "user": 26,
+        "profile_image": "profile_images/IMG_0942.jpeg"
+    }
+},
+{
+    "model": "PureOrganics.category",
+    "pk": 1,
+    "fields": {
+        "name": "Fruits",
+        "description": "Fresh and locally sourced organic fruits",
+        "image": "category/fruits.jpeg",
+        "brands": []
+    }
+},
+{
+    "model": "PureOrganics.category",
+    "pk": 2,
+    "fields": {
+        "name": "Vegetables",
+        "description": "Certified organic vegetables from Canadian farms",
+        "image": "category/vegetables.jpg",
+        "brands": []
+    }
+},
+{
+    "model": "PureOrganics.category",
+    "pk": 3,
+    "fields": {
+        "name": "Dairy",
+        "description": "Organic Canadian dairy products",
+        "image": "category/Dairy-Products.jpeg",
+        "brands": []
+    }
+},
+{
+    "model": "PureOrganics.brand",
+    "pk": 1,
+    "fields": {
+        "name": "Organic Harvest",
+        "description": "Certified organic produce from Canadian farms"
+    }
+},
+{
+    "model": "PureOrganics.brand",
+    "pk": 2,
+    "fields": {
+        "name": "Green Valley Organics",
+        "description": "Locally sourced organic vegetables"
+    }
+},
+{
+    "model": "PureOrganics.brand",
+    "pk": 3,
+    "fields": {
+        "name": "Happy Cows Dairy",
+        "description": "Organic dairy products from Canadian farms"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 1,
+    "fields": {
+        "name": "Maple Syrup",
+        "category": 1,
+        "brand": 1,
+        "description": "Pure organic Canadian maple syrup",
+        "price": "12.99",
+        "stock": 63,
+        "image": "products/maplesyrup.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:30:48.205Z",
+        "updated_at": "2024-07-23T15:05:59.056Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 2,
+    "fields": {
+        "name": "Wild Blueberries",
+        "category": 1,
+        "brand": null,
+        "description": "Wild organic Canadian blueberries",
+        "price": "8.99",
+        "stock": 44,
+        "image": "products/blueberries.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:31:31.159Z",
+        "updated_at": "2024-07-23T06:50:19.710Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 3,
+    "fields": {
+        "name": "Organic Kale",
+        "category": 2,
+        "brand": 2,
+        "description": "Fresh organic Canadian kale",
+        "price": "3.49",
+        "stock": 74,
+        "image": "products/kale.png",
+        "available": true,
+        "created_at": "2024-07-18T23:32:06.835Z",
+        "updated_at": "2024-07-23T13:05:28.506Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 4,
+    "fields": {
+        "name": "Canadian Cheddar",
+        "category": 3,
+        "brand": null,
+        "description": "Aged organic Canadian cheddar cheese",
+        "price": "5.99",
+        "stock": 30,
+        "image": "products/organic-cheddar.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:32:38.407Z",
+        "updated_at": "2024-07-18T23:32:38.407Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 5,
+    "fields": {
+        "name": "Ontario Apples",
+        "category": 1,
+        "brand": null,
+        "description": "Crisp organic Ontario apples",
+        "price": "1.99",
+        "stock": 149,
+        "image": "products/apples.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:33:12.312Z",
+        "updated_at": "2024-07-23T06:54:56.404Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 6,
+    "fields": {
+        "name": "Quebec Cheese Curds",
+        "category": 3,
+        "brand": null,
+        "description": "Fresh organic Quebec cheese curds",
+        "price": "4.99",
+        "stock": 36,
+        "image": "products/Cheese.jpg",
+        "available": true,
+        "created_at": "2024-07-18T23:33:38.130Z",
+        "updated_at": "2024-07-23T15:07:05.887Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 7,
+    "fields": {
+        "name": "BC Blueberries",
+        "category": 1,
+        "brand": null,
+        "description": "Juicy organic blueberries from British Columbia",
+        "price": "6.99",
+        "stock": 69,
+        "image": "products/bc_blueberry.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:34:11.675Z",
+        "updated_at": "2024-07-23T07:22:17.251Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 8,
+    "fields": {
+        "name": "Organic Spinach",
+        "category": 2,
+        "brand": 2,
+        "description": "Nutrient-rich organic Canadian spinach",
+        "price": "4.29",
+        "stock": 59,
+        "image": "products/spinach.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:34:44.743Z",
+        "updated_at": "2024-07-23T13:05:19.147Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 9,
+    "fields": {
+        "name": "Nova Scotia Strawberries",
+        "category": 1,
+        "brand": 1,
+        "description": "Sweet organic strawberries from Nova Scotia",
+        "price": "7.49",
+        "stock": 40,
+        "image": "products/strawberry.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:35:20.408Z",
+        "updated_at": "2024-07-23T13:05:12.857Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 10,
+    "fields": {
+        "name": "Free-range Eggs",
+        "category": 3,
+        "brand": 3,
+        "description": "Fresh organic free-range eggs from local farms",
+        "price": "3.99",
+        "stock": 95,
+        "image": "products/egg.jpeg",
+        "available": true,
+        "created_at": "2024-07-18T23:35:48.306Z",
+        "updated_at": "2024-07-26T17:42:45.971Z"
+    }
+},
+{
+    "model": "PureOrganics.product",
+    "pk": 11,
+    "fields": {
+        "name": "apple",
+        "category": 1,
+        "brand": 1,
+        "description": "",
+        "price": "3.29",
+        "stock": 100,
+        "image": "",
+        "available": true,
+        "created_at": "2024-07-27T01:23:41.857Z",
+        "updated_at": "2024-07-27T01:23:41.857Z"
+    }
+},
+{
+    "model": "PureOrganics.cart",
+    "pk": 2,
+    "fields": {
+        "user": 1
+    }
+},
+{
+    "model": "PureOrganics.cart",
+    "pk": 7,
+    "fields": {
+        "user": 19
+    }
+},
+{
+    "model": "PureOrganics.cart",
+    "pk": 11,
+    "fields": {
+        "user": 26
+    }
+},
+{
+    "model": "PureOrganics.order",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "created_at": "2024-07-21T01:28:36.739Z",
+        "status": "P"
+    }
+},
+{
+    "model": "PureOrganics.order",
+    "pk": 33,
+    "fields": {
+        "user": 26,
+        "created_at": "2024-07-26T17:42:03.599Z",
+        "status": "P"
+    }
+},
+{
+    "model": "PureOrganics.order",
+    "pk": 34,
+    "fields": {
+        "user": 26,
+        "created_at": "2024-07-26T17:42:44.896Z",
+        "status": "P"
+    }
+},
+{
+    "model": "PureOrganics.orderitem",
+    "pk": 24,
+    "fields": {
+        "order": 33,
+        "product": 10,
+        "quantity": 1
+    }
+},
+{
+    "model": "PureOrganics.orderitem",
+    "pk": 25,
+    "fields": {
+        "order": 34,
+        "product": 10,
+        "quantity": 1
+    }
+},
+{
+    "model": "PureOrganics.contact",
+    "pk": 1,
+    "fields": {
+        "name": "Nimisha Chowdary Cherukuri",
+        "email": "cheruku4@uwindsor.ca",
+        "message": "hbjn",
+        "created_at": "2024-07-22T07:22:43.867Z"
+    }
+},
+{
+    "model": "PureOrganics.contact",
+    "pk": 2,
+    "fields": {
+        "name": "project",
+        "email": "cheruku4@uwindsor.ca",
+        "message": "issue with placing order",
+        "created_at": "2024-07-22T08:41:12.571Z"
+    }
+},
+{
+    "model": "PureOrganics.contact",
+    "pk": 3,
+    "fields": {
+        "name": "smadsd",
+        "email": "cherukurinimisha@gmail.com",
+        "message": "nkkn",
+        "created_at": "2024-07-23T12:47:10.188Z"
+    }
+},
+{
+    "model": "PureOrganics.contact",
+    "pk": 4,
+    "fields": {
+        "name": "smadsd",
+        "email": "cherukurinimisha@gmail.com",
+        "message": "nkkn",
+        "created_at": "2024-07-23T12:52:56.983Z"
+    }
+},
+{
+    "model": "PureOrganics.contact",
+    "pk": 5,
+    "fields": {
+        "name": "smadsd",
+        "email": "cherukurinimisha@gmail.com",
+        "message": "N",
+        "created_at": "2024-07-23T13:00:05.625Z"
+    }
+},
+{
+    "model": "PureOrganics.contact",
+    "pk": 6,
+    "fields": {
+        "name": "Samatha Guddepogu",
+        "email": "samathag2ms@gmail.com",
+        "message": "fg",
+        "created_at": "2024-07-23T15:08:59.375Z"
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 1,
+    "fields": {
+        "question": "What is PurelyOrganic?",
+        "answer": "PurelyOrganic is an online marketplace dedicated to organic and eco-friendly products."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 2,
+    "fields": {
+        "question": "How can I contact customer support?",
+        "answer": "You can contact customer support via the contact form on our website."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 3,
+    "fields": {
+        "question": "What payment methods do you accept?",
+        "answer": "We accept all major credit cards, PayPal, and other secure payment methods."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 4,
+    "fields": {
+        "question": "How do I track my order?",
+        "answer": "You can track your order through your account dashboard on our website. You will also receive email updates with tracking information."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 5,
+    "fields": {
+        "question": "What is your return policy?",
+        "answer": "We offer a 30-day return policy on most products. Items must be returned in their original condition and packaging. Please contact customer support for more details."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 6,
+    "fields": {
+        "question": "Are your products certified organic?",
+        "answer": "Yes, all our products are certified organic by recognized certification bodies."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 7,
+    "fields": {
+        "question": "Do you offer international shipping?",
+        "answer": "Currently, we only ship within Canada. We are working on expanding our shipping options to include international destinations."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 8,
+    "fields": {
+        "question": "How can I cancel my order?",
+        "answer": "To cancel your order, please contact our customer support team as soon as possible. If your order has not yet been processed, we will be able to cancel it for you."
+    }
+},
+{
+    "model": "PureOrganics.faq",
+    "pk": 9,
+    "fields": {
+        "question": "Can I change my shipping address after placing an order?",
+        "answer": "If your order has not yet been shipped, you can change your shipping address by contacting our customer support team."
+    }
+},
+{
+    "model": "PureOrganics.review",
+    "pk": 3,
+    "fields": {
+        "product": 1,
+        "user": 26,
+        "rating": 5,
+        "comment": "best product",
+        "created_at": "2024-07-26T18:13:26.756Z"
+    }
+},
+{
+    "model": "PureOrganics.review",
+    "pk": 4,
+    "fields": {
+        "product": 8,
+        "user": 26,
+        "rating": 4,
+        "comment": "very good",
+        "created_at": "2024-07-26T18:27:12.559Z"
+    }
+}
+]

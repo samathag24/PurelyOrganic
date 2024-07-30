@@ -1,0 +1,20 @@
+[
+{
+    "model": "PureOrganics.cartitem",
+    "pk": 91,
+    "fields": {
+        "cart": 12,
+        "product": 6,
+        "quantity": 1
+    }
+},
+{
+    "model": "PureOrganics.cartitem",
+    "pk": 95,
+    "fields": {
+        "cart": 12,
+        "product": 4,
+        "quantity": 1
+    }
+}
+]

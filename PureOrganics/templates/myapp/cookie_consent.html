@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Consent</title>
+    <link rel="stylesheet" href="{% static 'myapp/style.css' %}">
+</head>
+<body>
+    <div class="cookie-consent">
+        <div class="cookie-consent-content">
+            <p>We use cookies to ensure you get the best experience on our website. By continuing to use our site, you accept our use of cookies. Read our <a href="#">cookie policy</a>.</p>
+            <form method="post">
+                {% csrf_token %}
+                <button type="submit" name="consent" value="all">Accept All Cookies</button>
+                <button type="submit" name="consent" value="necessary">Accept Necessary Cookies</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
